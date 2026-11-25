@@ -1,0 +1,9 @@
+# Dokumen company profile (bukan bagian dari website)
+*.pdf
+*.docx
+*.doc
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini

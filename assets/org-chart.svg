@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="1200" height="620" role="img" aria-label="Bagan struktur organisasi PT. Diande Putra Mandiri">
+  <style>
+    .box { fill: #ffffff; stroke: #c9c2b4; stroke-width: 2; }
+    .dark { fill: #0b1b2b; stroke: #0b1b2b; }
+    .role { font-family: 'Barlow', 'Liberation Sans', Arial, sans-serif; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; font-weight: 700; }
+    .role-dark { fill: #e0a04a; }
+    .role-light { fill: #6b7784; }
+    .name { font-family: 'Barlow', 'Liberation Sans', Arial, sans-serif; font-size: 20px; font-weight: 700; fill: #0b1b2b; }
+    .name-dark { fill: #f7f4ee; }
+    .line { stroke: #a9b4bf; stroke-width: 2; fill: none; }
+    .line-dash { stroke: #b9c2cb; stroke-width: 1.4; stroke-dasharray: 5 5; fill: none; }
+    .tag { font-family: 'Barlow', 'Liberation Sans', Arial, sans-serif; font-size: 11px; letter-spacing: 2px; fill: #8a939e; text-transform: uppercase; }
+  </style>
+
+  <!-- Komisaris -->
+  <rect class="box" x="470" y="8" width="260" height="62" rx="2"/>
+  <text class="role role-light" x="600" y="32" text-anchor="middle">Komisaris</text>
+  <text class="name" x="600" y="56" text-anchor="middle">Diande Din Syamsudin</text>
+
+  <!-- garis pengawasan -->
+  <path class="line-dash" d="M600 70 L600 104"/>
+  <text class="tag" x="612" y="92">Pengawasan</text>
+
+  <!-- Direktur Utama -->
+  <rect class="dark" x="430" y="104" width="340" height="72" rx="2"/>
+  <text class="role role-dark" x="600" y="132" text-anchor="middle">Direktur Utama</text>
+  <text class="name name-dark" x="600" y="158" text-anchor="middle">Bobby Erika Putra</text>
+
+  <path class="line" d="M600 176 L600 212"/>
+
+  <!-- Direktur -->
+  <rect class="dark" x="430" y="212" width="340" height="72" rx="2"/>
+  <text class="role role-dark" x="600" y="240" text-anchor="middle">Direktur</text>
+  <text class="name name-dark" x="600" y="266" text-anchor="middle">Gugum Gumelar Nur Hakim</text>
+
+  <!-- bus ke unit -->
+  <path class="line" d="M600 284 L600 312 M180 312 L1020 312"/>
+  <path class="line" d="M180 312 L180 340 M460 312 L460 340 M740 312 L740 340 M1020 312 L1020 340"/>
+
+  <!-- Unit -->
+  <g>
+    <rect class="box" x="55" y="340" width="250" height="76" rx="2"/>
+    <text class="role role-light" x="180" y="366" text-anchor="middle">Project Manager</text>
+    <text class="name" x="180" y="392" text-anchor="middle">Imam Andi Setiawan</text>
+  </g>
+  <g>
+    <rect class="box" x="335" y="340" width="250" height="76" rx="2"/>
+    <text class="role role-light" x="460" y="366" text-anchor="middle">Site Manager</text>
+    <text class="name" x="460" y="392" text-anchor="middle">Kondang Dharmanto</text>
+  </g>
+  <g>
+    <rect class="box" x="615" y="340" width="250" height="76" rx="2"/>
+    <text class="role role-light" x="740" y="366" text-anchor="middle">Admin</text>
+    <text class="name" x="740" y="392" text-anchor="middle">M. Ridwan Hakim</text>
+  </g>
+  <g>
+    <rect class="box" x="895" y="340" width="250" height="76" rx="2"/>
+    <text class="role role-light" x="1020" y="366" text-anchor="middle">Tenaga Ahli</text>
+    <text class="name" x="1020" y="392" text-anchor="middle">Andi Warbowo, ST</text>
+  </g>
+
+  <!-- bus ke tim lapangan dari Site Manager -->
+  <path class="line" d="M460 416 L460 448 M150 448 L1050 448"/>
+  <path class="line" d="M150 448 L150 476 M375 448 L375 476 M600 448 L600 476 M825 448 L825 476 M1050 448 L1050 476"/>
+
+  <!-- Tim lapangan -->
+  <g>
+    <rect class="box" x="50" y="476" width="200" height="74" rx="2"/>
+    <text class="role role-light" x="150" y="502" text-anchor="middle">Koordinator</text>
+    <text class="name" x="150" y="528" text-anchor="middle">Edo Sirait</text>
+  </g>
+  <g>
+    <rect class="box" x="275" y="476" width="200" height="74" rx="2"/>
+    <text class="role role-light" x="375" y="502" text-anchor="middle">Pelaksana</text>
+    <text class="name" x="375" y="528" text-anchor="middle">Miftah</text>
+  </g>
+  <g>
+    <rect class="box" x="500" y="476" width="200" height="74" rx="2"/>
+    <text class="role role-light" x="600" y="502" text-anchor="middle">Logistik</text>
+    <text class="name" x="600" y="528" text-anchor="middle">Sufi Nilo Krisno</text>
+  </g>
+  <g>
+    <rect class="box" x="725" y="476" width="200" height="74" rx="2"/>
+    <text class="role role-light" x="825" y="502" text-anchor="middle">K3</text>
+    <text class="name" x="825" y="528" text-anchor="middle" font-size="16">Yoneve Dedy Alphonse</text>
+  </g>
+  <g>
+    <rect class="box" x="950" y="476" width="200" height="74" rx="2"/>
+    <text class="role role-light" x="1050" y="502" text-anchor="middle">HSE</text>
+    <text class="name" x="1050" y="528" text-anchor="middle">Sajat</text>
+  </g>
+
+  <text class="tag" x="600" y="592" text-anchor="middle">Garis komando · Komisaris mengawasi, Direksi memutuskan, unit pelaksana menjalankan</text>
+</svg>
